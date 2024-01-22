@@ -13,11 +13,18 @@ public class SolutionsTester {
     }
 
     // The palindrome testing function
-    public void PalindromeSolution(){
+    public void palindromeSolution(){
         int numbers = 1212;
         PalindromeNumber palindromeNumObj = new PalindromeNumber();
         boolean isPalindrome = palindromeNumObj.isPalindrome(numbers);
         System.out.println("the palindrome is "+ isPalindrome);
+    }
+
+    public void romanToIntegerSolution(){
+        String romanString = "MCMXCIV";
+        RomanToInteger romanToIntobj = new RomanToInteger();
+        int result = romanToIntobj.romanToInt(romanString);
+        System.out.println("the final result is: "+result);
     }
 
 }

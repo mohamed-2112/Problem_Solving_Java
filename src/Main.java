@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         SolutionsTester solTester = new SolutionsTester();
         //solTester.twoSumSolution();
-        solTester.PalindromeSolution();
+        //solTester.palindromeSolution();
+        solTester.romanToIntegerSolution();
     }
 }
