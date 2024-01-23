@@ -7,6 +7,7 @@ public class Main {
         //solTester.twoSumSolution();
         //solTester.palindromeSolution();
         //solTester.romanToIntegerSolution();
-        solTester.longestCommonPrefixSolution();
+        //solTester.longestCommonPrefixSolution();
+        solTester.validParenthesesSolution();
     }
 }

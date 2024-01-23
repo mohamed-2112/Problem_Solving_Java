@@ -35,4 +35,12 @@ public class SolutionsTester {
         String result = longestCommPreObj.longestCommPrefix(arrayOfString);
         System.out.println("the final result is: " + result);
     }
+
+    public void validParenthesesSolution(){
+        String parenthesesStr = "(){}[]" ;
+        ValidParentheses validParenthesesObj = new ValidParentheses();
+        boolean result = validParenthesesObj.validParen(parenthesesStr);
+        System.out.println("the final result is: " + result);
+    }
+
 }
