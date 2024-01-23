@@ -27,4 +27,12 @@ public class SolutionsTester {
         System.out.println("the final result is: "+result);
     }
 
+
+
+    public void longestCommonPrefixSolution(){
+        String[] arrayOfString = {"flower", "flow", "flight"};
+        LongestCommonPrefix longestCommPreObj = new LongestCommonPrefix();
+        String result = longestCommPreObj.longestCommPrefix(arrayOfString);
+        System.out.println("the final result is: " + result);
+    }
 }

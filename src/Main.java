@@ -6,6 +6,7 @@ public class Main {
         SolutionsTester solTester = new SolutionsTester();
         //solTester.twoSumSolution();
         //solTester.palindromeSolution();
-        solTester.romanToIntegerSolution();
+        //solTester.romanToIntegerSolution();
+        solTester.longestCommonPrefixSolution();
     }
 }
