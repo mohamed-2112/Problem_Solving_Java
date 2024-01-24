@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SolutionsTester {
 
 
@@ -41,6 +43,44 @@ public class SolutionsTester {
         ValidParentheses validParenthesesObj = new ValidParentheses();
         boolean result = validParenthesesObj.validParen(parenthesesStr);
         System.out.println("the final result is: " + result);
+    }
+
+
+    public void sequenceDetectiveSolution(){
+
+        Scanner scanner = new Scanner(System.in);
+        SequenceDetective sequenceDetObj = new SequenceDetective();
+        System.out.print("Enter the number of rows: ");
+        int rows = scanner.nextInt();
+        System.out.print("Enter the number of columns: ");
+        int cols = scanner.nextInt();
+        scanner.nextLine(); // consume the remaining newline
+
+        int[][] grid = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+            System.out.print("Enter the " + (i + 1) + " row: ");
+            String[] inputRow = scanner.nextLine().split(" ");
+            for (int j = 0; j < cols; j++) {
+                grid[i][j] = Integer.parseInt(inputRow[j]);
+            }
+        }
+
+        System.out.print("Enter the sequence that you want to search for: ");
+        String[] inputSequence = scanner.nextLine().split(" ");
+        int[] sequence = new int[inputSequence.length];
+        for (int i = 0; i < inputSequence.length; i++) {
+            sequence[i] = Integer.parseInt(inputSequence[i]);
+        }
+
+        scanner.close();
+
+        sequenceDetObj.searchSequence(grid, sequence);
+
+
+
+
+
     }
 
 }

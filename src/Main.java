@@ -8,6 +8,7 @@ public class Main {
         //solTester.palindromeSolution();
         //solTester.romanToIntegerSolution();
         //solTester.longestCommonPrefixSolution();
-        solTester.validParenthesesSolution();
+        //solTester.validParenthesesSolution();
+        solTester.sequenceDetectiveSolution();
     }
 }
