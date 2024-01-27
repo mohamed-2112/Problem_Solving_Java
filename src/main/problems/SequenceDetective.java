@@ -1,3 +1,5 @@
+package main.problems;
+
 import java.util.Scanner;
 
 public class SequenceDetective {

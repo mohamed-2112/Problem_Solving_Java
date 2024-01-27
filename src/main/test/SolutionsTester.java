@@ -1,3 +1,7 @@
+package main.test;
+
+import main.problems.*;
+import main.problems.mergeTwoSortedLists.*;
 import java.util.Scanner;
 
 public class SolutionsTester {
@@ -77,10 +81,42 @@ public class SolutionsTester {
 
         sequenceDetObj.searchSequence(grid, sequence);
 
+    }
 
 
-
+    public void mergeTwoSortedListsSolution(){
+        MergeTwoSortedLists mergeTwoSortedListsObj = new MergeTwoSortedLists();
+        ListNode list1 = mergeTwoSortedListsObj.addList(new int[]{1, 2, 4});
+        System.out.println("the first list is: ");
+        mergeTwoSortedListsObj.printList(list1);
+        ListNode list2 = mergeTwoSortedListsObj.addList(new int[]{1, 3, 4});
+        System.out.println("the second list is: ");
+        mergeTwoSortedListsObj.printList(list2);
+        ListNode result = mergeTwoSortedListsObj.mergeTwoLists(list1, list2);
+        System.out.println("The full merged list is: ");
+        mergeTwoSortedListsObj.printList(result);
 
     }
+
+    public void plusOneSolution(){
+        int[] array = {1, 2, 9};
+        PlusOne plusOneObj = new PlusOne();
+        int[] finaleResult = plusOneObj.plusOne(array);
+        for (int i : finaleResult){
+            System.out.println("from the solution: "+ i);
+        }
+
+    }
+
+
+
+    public void addBinarySolution(){
+        String a = "10110";
+        String b = "10101";
+        AddBinary addBinaryObj = new AddBinary();
+        String finaleResult = addBinaryObj.addBinary(a, b);
+        System.out.println(finaleResult);
+    }
+
 
 }

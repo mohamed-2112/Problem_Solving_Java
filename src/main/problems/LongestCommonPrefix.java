@@ -1,3 +1,5 @@
+package main.problems;
+
 public class LongestCommonPrefix {
 
     public String longestCommPrefix(String[] strArray){

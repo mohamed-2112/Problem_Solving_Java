@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the valid parentheses problem and the solution tester function">
-      <change afterPath="$PROJECT_DIR$/src/SequenceDetective.java" afterDir="false" />
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the sequence detective and it's solution testing function">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolutionsTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SequenceDetective.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/SequenceDetective.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.SequenceDetective.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/projects/Problem_Solving_Java/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SequenceDetective.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/projects/Problem_Solving_Java/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
         <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
@@ -83,7 +97,12 @@
       <workItem from="1705889153920" duration="3360000" />
       <workItem from="1705950662335" duration="6519000" />
       <workItem from="1706027165827" duration="10094000" />
-      <workItem from="1706051061279" duration="5348000" />
+      <workItem from="1706051061279" duration="6082000" />
+      <workItem from="1706129170150" duration="10452000" />
+      <workItem from="1706300949522" duration="9173000" />
+      <workItem from="1706381237924" duration="5865000" />
+      <workItem from="1706390083159" duration="41000" />
+      <workItem from="1706390164031" duration="7908000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -125,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706047770791</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding the sequence detective and it's solution testing function">
+      <option name="closed" value="true" />
+      <created>1706060012812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706060012812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +164,7 @@
     <MESSAGE value="adding the Roman To Integer class and it's solution" />
     <MESSAGE value="adding the longest common prefix problem and it's solution" />
     <MESSAGE value="adding the valid parentheses problem and the solution tester function" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the valid parentheses problem and the solution tester function" />
+    <MESSAGE value="adding the sequence detective and it's solution testing function" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the sequence detective and it's solution testing function" />
   </component>
 </project>
