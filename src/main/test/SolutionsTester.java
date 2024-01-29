@@ -118,5 +118,17 @@ public class SolutionsTester {
         System.out.println(finaleResult);
     }
 
+    public void array2DExampleOneSolution(){
+        Array2DPracticeExamples array2DPracticeExamplesObj = new Array2DPracticeExamples();
+        //array2DPracticeExamplesObj.array2DManipulation();
+        //array2DPracticeExamplesObj.jagged2DArrayManipulation();
+        //array2DPracticeExamplesObj.pyramid2DArrayWithJagged();
+        //array2DPracticeExamplesObj.array2DFromUser();
+        //array2DPracticeExamplesObj.example5();
+        array2DPracticeExamplesObj.example6();
+
+    }
+
+
 
 }

@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the sequence detective and it's solution testing function">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/MergeTwoSortedLists.java" afterDir="false" />
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding three problems (Add binary, mergetwosortedlist , plusone) and reorganizing">
+      <change afterPath="$PROJECT_DIR$/src/main/problems/Array2DPracticeExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SequenceDetective.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/SequenceDetective.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +91,9 @@
       <workItem from="1706300949522" duration="9173000" />
       <workItem from="1706381237924" duration="5865000" />
       <workItem from="1706390083159" duration="41000" />
-      <workItem from="1706390164031" duration="7908000" />
+      <workItem from="1706390164031" duration="8619000" />
+      <workItem from="1706478770669" duration="7260000" />
+      <workItem from="1706492189076" duration="7544000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -152,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706060012812</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding three problems (Add binary, mergetwosortedlist , plusone) and reorganizing">
+      <option name="closed" value="true" />
+      <created>1706398247646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706398247646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +164,7 @@
     <MESSAGE value="adding the longest common prefix problem and it's solution" />
     <MESSAGE value="adding the valid parentheses problem and the solution tester function" />
     <MESSAGE value="adding the sequence detective and it's solution testing function" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the sequence detective and it's solution testing function" />
+    <MESSAGE value="adding three problems (Add binary, mergetwosortedlist , plusone) and reorganizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding three problems (Add binary, mergetwosortedlist , plusone) and reorganizing" />
   </component>
 </project>

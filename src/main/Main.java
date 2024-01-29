@@ -16,6 +16,7 @@ public class Main {
         //solTester.sequenceDetectiveSolution();
         //solTester.mergeTwoSortedListsSolution();
         //solTester.plusOneSolution();
-        solTester.addBinarySolution();
+        //solTester.addBinarySolution();
+        solTester.array2DExampleOneSolution();
     }
 }
