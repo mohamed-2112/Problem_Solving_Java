@@ -17,6 +17,7 @@ public class Main {
         //solTester.mergeTwoSortedListsSolution();
         //solTester.plusOneSolution();
         //solTester.addBinarySolution();
-        solTester.array2DExampleOneSolution();
+        //solTester.array2DExampleOneSolution();
+        solTester.removeDuplicatesFromSortedArray();
     }
 }

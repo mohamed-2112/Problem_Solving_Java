@@ -130,5 +130,12 @@ public class SolutionsTester {
     }
 
 
+    public void removeDuplicatesFromSortedArray(){
+        int[] array = {0, 1, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 7};
+        RemoveDuplicatesFromSortedArray removeDuplicatesObj = new RemoveDuplicatesFromSortedArray();
+        int result = removeDuplicatesObj.removeDuplicates(array);
+    }
+
+
 
 }
