@@ -1,7 +1,12 @@
 package main.test;
 
+import main.components.ListNode;
 import main.problems.*;
+import main.problems.addTwoNumbers.AddTwoNumbers;
 import main.problems.mergeTwoSortedLists.*;
+
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SolutionsTester {
@@ -86,6 +91,7 @@ public class SolutionsTester {
 
     public void mergeTwoSortedListsSolution(){
         MergeTwoSortedLists mergeTwoSortedListsObj = new MergeTwoSortedLists();
+
         ListNode list1 = mergeTwoSortedListsObj.addList(new int[]{1, 2, 4});
         System.out.println("the first list is: ");
         mergeTwoSortedListsObj.printList(list1);
@@ -136,6 +142,60 @@ public class SolutionsTester {
         int result = removeDuplicatesObj.removeDuplicates(array);
     }
 
+    public void testLabInput(){
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the total number of lines
+        int totalLines = Integer.parseInt(scanner.nextLine());
+        ArrayList<ArrayList<Integer>> allNumbers = new ArrayList<>();
+
+        // Iterate over the number of lines
+        for (int i = 0; i < totalLines; i++) {
+            String line = scanner.nextLine(); // read the next line
+            String[] numbers = line.split(" "); // split the line by spaces
+
+            ArrayList<Integer> intNumbers = new ArrayList<>();
+            // Convert the string numbers to integers and add to the list
+            for (String number : numbers) {
+                intNumbers.add(Integer.parseInt(number));
+            }
+            allNumbers.add(intNumbers);
+        }
+
+        scanner.close();
+
+        // Now allNumbers contains all the integers
+        // You can process this list as per your requirement
+        for (ArrayList<Integer> line : allNumbers) {
+            for (int number : line) {
+                System.out.print(number + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public void addTwoNumbersSolution(){
+
+        //6,2,2   3,3,2
+        //6,2,2   4,3,2
+        //6,5,2   4,4,2
+        //6,5,5   4,5,3
+        //6,5,5   4,5,4
+        //2,3,4   1,3
+        ListNode l1 = ListNode.addList(new int[]{4,6,9});
+        ListNode l2 = ListNode.addList(new int[]{3,4});
+        ListNode.printList(l1);
+        ListNode.printList(l2);
+        AddTwoNumbers addTwoNumbersObj = new AddTwoNumbers();
+        ListNode result = addTwoNumbersObj.addTwoNumbers(l1, l2);
+        System.out.println("the result are: ");
+        ListNode.printList(result);
+    }
+
+    public void compressAndSwapSolution(){
+        CompressAndSwap  compressAndSwapObj= new CompressAndSwap();
+        compressAndSwapObj.compressAndSwapProblems();
+    }
 
 
 }

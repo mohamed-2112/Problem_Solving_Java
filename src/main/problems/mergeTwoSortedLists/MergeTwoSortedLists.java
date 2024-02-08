@@ -1,5 +1,7 @@
 package main.problems.mergeTwoSortedLists;
 
+import main.components.ListNode;
+
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode mergedList = new ListNode();
@@ -48,11 +50,11 @@ public class MergeTwoSortedLists {
         ListNode fullList = new ListNode();
         ListNode temp = fullList;
         for (int i=0; i< listVal.length ; i++){
-           temp.val = listVal[i];
-           if (i <listVal.length-1){
-               temp.next = new ListNode();
-               temp = temp.next;
-           }
+            temp.val = listVal[i];
+            if (i <listVal.length-1){
+                temp.next = new ListNode();
+                temp = temp.next;
+            }
         }
         return fullList;
     }

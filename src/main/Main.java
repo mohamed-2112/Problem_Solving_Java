@@ -18,6 +18,9 @@ public class Main {
         //solTester.plusOneSolution();
         //solTester.addBinarySolution();
         //solTester.array2DExampleOneSolution();
-        solTester.removeDuplicatesFromSortedArray();
+        //solTester.removeDuplicatesFromSortedArray();
+        //solTester.testLabInput();
+        //solTester.addTwoNumbersSolution();
+        solTester.compressAndSwapSolution();
     }
 }

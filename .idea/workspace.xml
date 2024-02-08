@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="Adding the 2D array practice examples solutions">
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="Adding remove duplicates from sorted array">
+      <change afterPath="$PROJECT_DIR$/src/main/problems/CompressAndSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/addTwoNumbers/AddTwoNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/problems/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/components/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/mergeTwoSortedLists/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +73,6 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
   </component>
@@ -95,7 +97,11 @@
       <workItem from="1706478770669" duration="7260000" />
       <workItem from="1706492189076" duration="8222000" />
       <workItem from="1706555716060" duration="3843000" />
-      <workItem from="1706627974820" duration="297000" />
+      <workItem from="1706627974820" duration="1650000" />
+      <workItem from="1707072536571" duration="9625000" />
+      <workItem from="1707093914827" duration="45000" />
+      <workItem from="1707419883832" duration="9000" />
+      <workItem from="1707419899968" duration="8717000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -161,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706506150633</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding remove duplicates from sorted array">
+      <option name="closed" value="true" />
+      <created>1706632305105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706632305105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +190,7 @@
     <MESSAGE value="adding the sequence detective and it's solution testing function" />
     <MESSAGE value="adding three problems (Add binary, mergetwosortedlist , plusone) and reorganizing" />
     <MESSAGE value="Adding the 2D array practice examples solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the 2D array practice examples solutions" />
+    <MESSAGE value="Adding remove duplicates from sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding remove duplicates from sorted array" />
   </component>
 </project>
