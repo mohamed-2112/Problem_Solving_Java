@@ -197,5 +197,15 @@ public class SolutionsTester {
         compressAndSwapObj.compressAndSwapProblems();
     }
 
+    public void lengthOfLongestStringSolution(){
+        LengthOfLongestString  lengthOfLongestStringObj= new LengthOfLongestString();
+        lengthOfLongestStringObj.lengthOfLongestSubstring("dvdf");
+        //"bbbbb"
+        //abcabcbb
+        //"pwwkew"
+        //aab
+        //dvdf
+    }
+
 
 }
