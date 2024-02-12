@@ -21,7 +21,8 @@ public class Main {
         //solTester.removeDuplicatesFromSortedArray();
         //solTester.testLabInput();
         //solTester.addTwoNumbersSolution();
-        //solTester.compressAndSwapSolution();
-        solTester.lengthOfLongestStringSolution();
+        solTester.compressAndSwapSolution();
+        //solTester.lengthOfLongestStringSolution();
+        //solTester.longestPlaindromSolution();
     }
 }

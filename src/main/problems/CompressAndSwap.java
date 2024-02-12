@@ -105,8 +105,6 @@ public class CompressAndSwap {
                 matrix[i][j] = Integer.parseInt(inputArray[i+1].split(" ")[j]);
             }
         }
-
-
     }
 
     public void printArray(){

@@ -207,5 +207,20 @@ public class SolutionsTester {
         //dvdf
     }
 
+    public void longestPlaindromSolution(){
+        LongestPalindrome  longestPalindromeObj= new LongestPalindrome();
+        String result = longestPalindromeObj.longestPalindrome("a");
+        System.out.println(result);
+        //a
+        //"cbbd"
+        //abba
+        //racecar
+        //madam
+        //aibohphobia
+        //rotator
+        //deified
+        //repaper
+        //aacabdkacaa
+    }
 
 }
