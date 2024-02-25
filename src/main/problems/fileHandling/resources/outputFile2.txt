@@ -1,0 +1,3 @@
+Java is fun to learn.
+Hello, Java!Java makes file handling easy.
+test another line

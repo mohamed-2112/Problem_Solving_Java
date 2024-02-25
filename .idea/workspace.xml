@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the LengthOfLongestString problem">
-      <change afterPath="$PROJECT_DIR$/src/main/problems/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/WordsOrder.java" afterDir="false" />
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the LongestPalindrome problem and the WordsOrder but it still has some issues">
+      <change afterPath="$PROJECT_DIR$/src/main/components/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/Zigzag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/fileHandling/ReadingFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/fileHandling/WritingFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/problems/fileHandling/resources/inputFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/problems/CompressAndSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/problems/CompressAndSwap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,29 +53,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LongestPalindrome.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SequenceDetective.executor": "Run",
-    "Application.WordsOrder.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/projects/Problem_Solving_Java/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SequenceDetective.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordsOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zigzag.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/projects/Problem_Solving_Java/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.problems" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\Problem_Solving_Java\src\main\problems\fileHandling\resources" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -112,6 +119,14 @@
       <workItem from="1707679990612" duration="12705000" />
       <workItem from="1707761124885" duration="1800000" />
       <workItem from="1707762957020" duration="2021000" />
+      <workItem from="1707766116427" duration="7793000" />
+      <workItem from="1708369835788" duration="6750000" />
+      <workItem from="1708381679759" duration="945000" />
+      <workItem from="1708527569028" duration="16000" />
+      <workItem from="1708534691807" duration="2582000" />
+      <workItem from="1708549239930" duration="4000" />
+      <workItem from="1708628345950" duration="4261000" />
+      <workItem from="1708828445570" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -201,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707688128770</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding the LongestPalindrome problem and the WordsOrder but it still has some issues">
+      <option name="closed" value="true" />
+      <created>1707766184860</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707766184860</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +242,7 @@
     <MESSAGE value="Adding remove duplicates from sorted array" />
     <MESSAGE value="Adding an additional 2 problems the addtwonumbers from the medium level and the compress and swap" />
     <MESSAGE value="adding the LengthOfLongestString problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the LengthOfLongestString problem" />
+    <MESSAGE value="adding the LongestPalindrome problem and the WordsOrder but it still has some issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the LongestPalindrome problem and the WordsOrder but it still has some issues" />
   </component>
 </project>

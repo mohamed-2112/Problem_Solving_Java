@@ -3,8 +3,9 @@ package main.test;
 import main.components.ListNode;
 import main.problems.*;
 import main.problems.addTwoNumbers.AddTwoNumbers;
+import main.problems.fileHandling.ReadingFile;
+import main.problems.fileHandling.WritingFile;
 import main.problems.mergeTwoSortedLists.*;
-
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -222,5 +223,37 @@ public class SolutionsTester {
         //repaper
         //aacabdkacaa
     }
+
+
+
+    public void fileHandlingSolution(){
+        ReadingFile readingFileObj =  new ReadingFile();
+        WritingFile writingFileObj = new WritingFile();
+        //readingFileObj.readFromFile();
+//        writingFileObj.writeToFile();
+//        readingFileObj.searchingForString();
+//        writingFileObj.appending();
+//        readingFileObj.reading2DArray();
+//        writingFileObj.copy();
+        readingFileObj.wordCount();
+    }
+
+
+
+    public void zigzagSolution(){
+        Zigzag zigzagObj = new Zigzag();
+        String result = zigzagObj.convert("AB",1);
+        System.out.println(result);
+    }
+
+    public void reverseSolution(){
+        ReverseInteger reverseIntegerObj = new ReverseInteger();
+        int x = 1534236469;
+        System.out.println("the input: "+x);
+        int result = reverseIntegerObj.reverse(x);
+        System.out.println(result);
+    }
+
+
 
 }

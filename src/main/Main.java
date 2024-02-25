@@ -21,8 +21,11 @@ public class Main {
         //solTester.removeDuplicatesFromSortedArray();
         //solTester.testLabInput();
         //solTester.addTwoNumbersSolution();
-        solTester.compressAndSwapSolution();
+        //solTester.compressAndSwapSolution();
         //solTester.lengthOfLongestStringSolution();
         //solTester.longestPlaindromSolution();
+        //solTester.fileHandlingSolution();
+        //solTester.zigzagSolution();
+        solTester.reverseSolution();
     }
 }
