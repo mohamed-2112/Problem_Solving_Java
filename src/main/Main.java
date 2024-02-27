@@ -26,6 +26,7 @@ public class Main {
         //solTester.longestPlaindromSolution();
         //solTester.fileHandlingSolution();
         //solTester.zigzagSolution();
-        solTester.reverseSolution();
+        //solTester.reverseSolution();
+        solTester.medianOfTwoSortedArraySolution();
     }
 }

@@ -254,6 +254,13 @@ public class SolutionsTester {
         System.out.println(result);
     }
 
+    public void medianOfTwoSortedArraySolution(){
+        MedianOfTwoSortedArray medianOfTwoSortedArrayObj = new MedianOfTwoSortedArray();
+        int[] nums1 = {1,3};
+        int[] nums2 = {2};
+        double result = medianOfTwoSortedArrayObj.findMedianSortedArrays(nums1, nums2);
+        System.out.println("the result is: "+result);
+    }
 
 
 }

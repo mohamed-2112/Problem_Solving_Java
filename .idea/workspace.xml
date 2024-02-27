@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the LongestPalindrome problem and the WordsOrder but it still has some issues">
-      <change afterPath="$PROJECT_DIR$/src/main/components/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/Zigzag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/fileHandling/ReadingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/fileHandling/WritingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/problems/fileHandling/resources/inputFile.txt" afterDir="false" />
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="adding the test linkedList and Reading File test ,reverseInetegera nd zigzag">
+      <change afterPath="$PROJECT_DIR$/src/main/problems/MedianOfTwoSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
@@ -56,7 +51,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SequenceDetective.executor&quot;: &quot;Run&quot;,
     &quot;Application.WordsOrder.executor&quot;: &quot;Run&quot;,
     &quot;Application.Zigzag.executor&quot;: &quot;Run&quot;,
@@ -126,7 +121,8 @@
       <workItem from="1708534691807" duration="2582000" />
       <workItem from="1708549239930" duration="4000" />
       <workItem from="1708628345950" duration="4261000" />
-      <workItem from="1708828445570" duration="3748000" />
+      <workItem from="1708828445570" duration="11338000" />
+      <workItem from="1708980293880" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -224,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707766184860</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding the test linkedList and Reading File test ,reverseInetegera nd zigzag">
+      <option name="closed" value="true" />
+      <created>1708832564425</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708832564425</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +247,7 @@
     <MESSAGE value="Adding an additional 2 problems the addtwonumbers from the medium level and the compress and swap" />
     <MESSAGE value="adding the LengthOfLongestString problem" />
     <MESSAGE value="adding the LongestPalindrome problem and the WordsOrder but it still has some issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the LongestPalindrome problem and the WordsOrder but it still has some issues" />
+    <MESSAGE value="adding the test linkedList and Reading File test ,reverseInetegera nd zigzag" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the test linkedList and Reading File test ,reverseInetegera nd zigzag" />
   </component>
 </project>
