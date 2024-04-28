@@ -262,5 +262,14 @@ public class SolutionsTester {
         System.out.println("the result is: "+result);
     }
 
+    public void removeElementSolution(){
+        RemoveElement removeElement = new RemoveElement();
+        int[] nums = {0,1,2,2,3,0,4,2};
+        int val = 2;
+        int k = removeElement.removeElement(nums, val);
+        System.out.println("the result is: "+k);
+    }
+
+
 
 }

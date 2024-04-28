@@ -27,6 +27,7 @@ public class Main {
         //solTester.fileHandlingSolution();
         //solTester.zigzagSolution();
         //solTester.reverseSolution();
-        solTester.medianOfTwoSortedArraySolution();
+//        solTester.medianOfTwoSortedArraySolution();
+        solTester.removeElementSolution();
     }
 }
