@@ -28,6 +28,9 @@ public class Main {
         //solTester.zigzagSolution();
         //solTester.reverseSolution();
 //        solTester.medianOfTwoSortedArraySolution();
-        solTester.removeElementSolution();
+//        solTester.removeElementSolution();
+        solTester.findIndex();
+
+
     }
 }

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="add new classes">
-      <change afterPath="$PROJECT_DIR$/src/main/problems/RemoveElement.java" afterDir="false" />
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="add the remove element in an array">
+      <change afterPath="$PROJECT_DIR$/src/main/problems/FindTheIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
@@ -48,30 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelperMethods.executor": "Run",
-    "Application.LinkedListDemo.executor": "Run",
-    "Application.LongestPalindrome.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SequenceDetective.executor": "Run",
-    "Application.TestArrayList.executor": "Run",
-    "Application.WordsOrder.executor": "Run",
-    "Application.Zigzag.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/projects/Problem_Solving_Java/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelperMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SequenceDetective.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordsOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zigzag.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/projects/Problem_Solving_Java/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.problems" />
@@ -141,7 +141,8 @@
       <workItem from="1712865336768" duration="133000" />
       <workItem from="1712869321370" duration="840000" />
       <workItem from="1713810414613" duration="511000" />
-      <workItem from="1714337676787" duration="2986000" />
+      <workItem from="1714337676787" duration="3895000" />
+      <workItem from="1715639614712" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -263,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712865384730</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add the remove element in an array">
+      <option name="closed" value="true" />
+      <created>1714343871073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714343871073</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +294,7 @@
     <MESSAGE value="adding the test linkedList and Reading File test ,reverseInetegera nd zigzag" />
     <MESSAGE value="median of the two sorted array" />
     <MESSAGE value="add new classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new classes" />
+    <MESSAGE value="add the remove element in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the remove element in an array" />
   </component>
 </project>

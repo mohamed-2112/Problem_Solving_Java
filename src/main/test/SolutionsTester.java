@@ -270,6 +270,13 @@ public class SolutionsTester {
         System.out.println("the result is: "+k);
     }
 
+    public void findIndex(){
+        FindTheIndex findTheIndex = new FindTheIndex();
+        String hayStack = "leetcode";
+        String needle = "leeto";
 
+        int index = findTheIndex.strStr(hayStack, needle);
+
+    }
 
 }
