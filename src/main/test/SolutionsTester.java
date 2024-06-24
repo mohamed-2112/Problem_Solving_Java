@@ -279,4 +279,12 @@ public class SolutionsTester {
 
     }
 
+
+    public void searchInsertSolution(){
+        SearchInsertPosition findTheIndex = new SearchInsertPosition();
+        int[] nums = {1,3};
+        int target = 2;
+        int index = findTheIndex.searchInsert(nums, target);
+    }
+
 }

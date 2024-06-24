@@ -29,8 +29,8 @@ public class Main {
         //solTester.reverseSolution();
 //        solTester.medianOfTwoSortedArraySolution();
 //        solTester.removeElementSolution();
-        solTester.findIndex();
-
+//        solTester.findIndex();
+        solTester.searchInsertSolution();
 
     }
 }
