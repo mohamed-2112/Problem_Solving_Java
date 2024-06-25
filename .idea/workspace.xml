@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="Find the index problem">
-      <change afterPath="$PROJECT_DIR$/src/main/problems/SearchInsertPosition.java" afterDir="false" />
+    <list default="true" id="0a474a57-8b6e-4f6b-b4c4-d308f689bab6" name="Changes" comment="latest update">
+      <change afterPath="$PROJECT_DIR$/src/main/problems/StringToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SolutionsTester.java" afterDir="false" />
@@ -145,6 +145,7 @@
       <workItem from="1715639614712" duration="680000" />
       <workItem from="1715640409681" duration="47000" />
       <workItem from="1717190142316" duration="3037000" />
+      <workItem from="1719272600706" duration="4281000" />
     </task>
     <task id="LOCAL-00001" summary="add the two sum code">
       <option name="closed" value="true" />
@@ -282,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715640284937</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="latest update">
+      <option name="closed" value="true" />
+      <created>1719272673885</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719272673885</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +315,7 @@
     <MESSAGE value="add new classes" />
     <MESSAGE value="add the remove element in an array" />
     <MESSAGE value="Find the index problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find the index problem" />
+    <MESSAGE value="latest update" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest update" />
   </component>
 </project>

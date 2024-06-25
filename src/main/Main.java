@@ -30,7 +30,7 @@ public class Main {
 //        solTester.medianOfTwoSortedArraySolution();
 //        solTester.removeElementSolution();
 //        solTester.findIndex();
-        solTester.searchInsertSolution();
-
+//        solTester.searchInsertSolution();
+        solTester.StringToIntegerSolution();
     }
 }

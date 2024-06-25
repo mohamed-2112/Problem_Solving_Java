@@ -287,4 +287,12 @@ public class SolutionsTester {
         int index = findTheIndex.searchInsert(nums, target);
     }
 
+    public void StringToIntegerSolution(){
+        StringToInteger stringToInteger = new StringToInteger();
+        String s = " ssdf1337c0d3";
+        int number = stringToInteger.myAtoi(s);
+    }
+
+
+
 }
